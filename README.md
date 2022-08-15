@@ -7,7 +7,7 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 18/0042661  |  Luís Fernando Furtado de Araújo |
-| 19/0055294  |  Isadora Soares |
+|  |  Isadora Soares |
 
 ## Sobre 
 O FGA Kart está com um temporizador automatizado que registra a volta dos competidores. Porém, ainda não há a disponibilidade de um sistema que pega todos os pilotos e calcula a classificação de cada um. Dessa forma, esse algoritmo pretende retornar o usuário que foi classificado de acordo com o tempo que foi feito por ele em segundos para o circuíto.
