@@ -112,7 +112,7 @@
         $result.appendChild($volta);
     }, false);
 
-    function oracle (a) {
+    function calculate (a) {
         if (a.length < 250) {
             const randomIndex = Math.floor(Math.random() * (a.length - 0)) + 0;
             return a[randomIndex];
@@ -149,7 +149,7 @@
     }
 
     function select (a, k) {
-        const median = oracle(a)
+        const median = calculate(a)
         const right = []
         const left = []
         a.forEach(element => {
