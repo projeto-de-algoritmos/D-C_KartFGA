@@ -1,1 +1,44 @@
 /* add styles here */
+body {
+  background-color: rgb(216, 200, 200);
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collection {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 1%;
+  align-items: center;
+  width: 90%;
+  margin-left: 2% !important;
+  padding: 2%;
+}
+.collection-item {
+  width: 20%;
+  margin: 2px !important;
+  background-color: rgb(200, 191, 191) !important;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+#input-posicao {
+  width: 3%;
+}
+
+.btn {
+  background-color: black !important;
+}
+
+ul:not(.browser-default) {
+  padding-left: 10% !important;
+}
