@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FGA Kart - Classificatórias</title>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h3>FGA Kart - Classificatórias</h3>
+    <br />
+    <ul id="lista-pilotos" class="collection with-header"></ul>
+    <br />
+    <br />
 
-</head>
-<body>
-    <h1>FGA Kart - Classificatórias</h1>
-        <ul id="lista-pilotos"></ul>
+    <div class="form">
+      <h6>Busque pela posição:</h6>
+      <input id="input-posicao" type="number" />
+      <a class="waves-effect btn" id="button-busca-piloto">
+        <i class="material-icons right">search</i>
+        Buscar piloto</a
+      >
 
-       <div class="form">
-        <label>Busque pela posição:</label>
-        <input id="input-posicao" type="text">
-        <button id="button-busca-piloto">Buscar piloto</button>
-
-        <div id="result"></div>
-       </div> 
+      <div id="result"></div>
+    </div>
 
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
