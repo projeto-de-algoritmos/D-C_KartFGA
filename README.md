@@ -33,3 +33,7 @@ Execução: Para executar o projeto basta abrir o arquivo index.html no navegado
 ## Como utilizar
 
 Escolha uma colocação e coloque no input para saber qual competidor está nessa referida posição.
+
+## Vídeo 
+
+https://drive.google.com/file/d/1yk3sYES79ZyHyFw5OIy1FNqAxKhKd_HJ/view?usp=sharing
